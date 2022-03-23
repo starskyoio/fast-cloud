@@ -39,7 +39,7 @@
         <dependency>
             <groupId>com.alibaba.nacos</groupId>
             <artifactId>nacos-client</artifactId>
-            <version>${nacos.client.version}</version>
+            <version>${nacos-client.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
