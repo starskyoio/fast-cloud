@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: '@artifactId@'
+  cloud:
+    inetutils:
+      preferred-networks: 172.18.14
+    nacos:
+      discovery:
+        server-addr: '@nacos.server-addr@'
+        namespace: '@nacos.namespace@'
+        group: '@nacos.group@'
+      config:
+        server-addr: '@nacos.server-addr@'
+        file-extension: yaml
+        namespace: '@nacos.namespace@'
+        group: '@nacos.group@'
