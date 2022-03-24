@@ -2,7 +2,6 @@ package com.huoguoer.fastcloud.user.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.huoguoer.fastcloud.user.entity.User;
-import org.apache.ibatis.annotations.Mapper;
 
 /**
 * @author linus
@@ -10,7 +9,6 @@ import org.apache.ibatis.annotations.Mapper;
 * @createDate 2022-03-24 09:39:30
 * @Entity com.huoguoer.fastcloud.user.entity.User
 */
-@Mapper
 public interface UserMapper extends BaseMapper<User> {
 
 }
